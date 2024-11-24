@@ -13,7 +13,9 @@ function App() {
     }
 
     const authorizeUser = async () => {
-        alert(1)
+        await fetch("http://localhost:8000", {
+            method: "GET",
+        })
     }
 
   return (
